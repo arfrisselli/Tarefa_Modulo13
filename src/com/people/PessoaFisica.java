@@ -5,15 +5,7 @@ package com.people;
  */
 public class PessoaFisica {
 
-    private String nome, sobrenome, cpf;
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+    private String sobrenome, cpf;
 
     public String getSobrenome() {
         return sobrenome;

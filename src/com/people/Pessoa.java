@@ -8,6 +8,7 @@ import java.util.Set;
  */
 public class Pessoa {
 
+    private String nome;
     private Set<PessoaFisica> pessoasFisicas;
     private Set<PessoaJuridica> pessoasJuridicas;
 
@@ -22,5 +23,13 @@ public class Pessoa {
 
     public void add(PessoaJuridica pj) {
         this.pessoasJuridicas.add(pj);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

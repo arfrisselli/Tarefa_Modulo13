@@ -5,7 +5,7 @@ package com.people;
  */
 public class PessoaJuridica {
 
-    private String razaoSocial, nomeFantasia, cnpj;
+    private String razaoSocial, cnpj;
 
     public String getRazaoSocial() {
         return razaoSocial;
@@ -13,14 +13,6 @@ public class PessoaJuridica {
 
     public void setRazaoSocial(String razaoSocial) {
         this.razaoSocial = razaoSocial;
-    }
-
-    public String getNomeFantasia() {
-        return nomeFantasia;
-    }
-
-    public void setNomeFantasia(String nomeFantasia) {
-        this.nomeFantasia = nomeFantasia;
     }
 
     public String getCnpj() {
